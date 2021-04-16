@@ -1,0 +1,95 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://ndownloader.figshare.com/files/479751",
+    "dcterms:bibliographicCitation" : "Bartomeus, Ignasi (2013): Plant-Pollinator Network Data. figshare. Dataset. https://doi.org/10.6084/m9.figshare.154863.v1",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "doi": "10.6084/m9.figshare.154863.v1",
+    "null" : [ "" ],
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002623",
+    "interactionTypeName": "hasFlowersVisitedBy",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      }, {
+        "name" : "Site",
+        "titles" : "Site",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Plant_sp",
+        "datatype" : "string"
+      }, {
+        "name" : "Date",
+        "titles" : "Date",
+        "datatype" : "string"
+      }, {
+        "name" : "Round",
+        "titles" : "Round",
+        "datatype" : "string"
+      }, {
+        "name" : "Plant",
+        "titles" : "Plant",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "P_Family",
+        "datatype" : "string"
+      }, {
+        "name" : "P_Color",
+        "titles" : "P_Color",
+        "datatype" : "string"
+      }, {
+        "name" : "P_Morphology",
+        "titles" : "P_Morphology",
+        "datatype" : "string"
+      }, {
+        "name" : "P_Inflorescence",
+        "titles" : "P_Inflorescence",
+        "datatype" : "string"
+      }, {
+        "name" : "P_Shape",
+        "titles" : "P_Shape",
+        "datatype" : "string"
+      }, {
+        "name" : "Insect",
+        "titles" : "Insect",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "I_Family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Insect_sp",
+        "datatype" : "string"
+      }, {
+        "name" : "Freq",
+        "titles" : "Freq",
+        "datatype" : "string"
+      }, {
+        "name" : "Site2",
+        "titles" : "Site2",
+        "datatype" : "string"
+      }, {
+        "name" : "mean_flw",
+        "titles" : "mean_flw",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
